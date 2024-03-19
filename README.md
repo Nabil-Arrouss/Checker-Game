@@ -26,12 +26,6 @@ The `PieceColor` enum represents the color of a piece, either black or white.
 
 The `Player` class represents a player in the game. It includes properties for the player's name and color. The `getMove()` method is responsible for getting the player's move, which in this implementation returns a random move from the list of valid moves obtained from the `CheckerBoard` class.
 
-## Usage
-
-1. Compile all Java files in your Java environment.
-2. Run the `CheckerGame` class to start the game.
-3. Follow the prompts to play the game.
-
 ## Note
 
 This is a simplified version of the checker game and lacks advanced features such as capturing multiple pieces, jumping over opponents' pieces, and implementing specific rules for king pieces. It serves as a basic demonstration of the game's mechanics.
